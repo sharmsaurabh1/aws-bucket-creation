@@ -1,0 +1,20 @@
+﻿<Window x:Class="APi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:APi"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <Label Content="Bucket Name" HorizontalAlignment="Left" Margin="213,83,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.766,1.367"/>
+        <Label Content="Object Name" HorizontalAlignment="Left" Margin="214,137,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tBucket" HorizontalAlignment="Left" Height="23" Margin="238,109,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="tObject" HorizontalAlignment="Left" Height="23" Margin="238,166,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="105"/>
+        <Button x:Name="bCreate" Content="Create" Background="DarkOrange" HorizontalAlignment="Left" Margin="438,111,0,0" VerticalAlignment="Top" Width="76" Click="btnCreate_Click"/>
+        <Button x:Name="bBrowse" Content="Browse" Background ="DarkCyan" HorizontalAlignment="Left" Margin="438,171,0,0" VerticalAlignment="Top" Width="75" Click="btnBrowse_Click"/>
+        <Button x:Name="bUpload" Content="Upload" Background ="LightGray" HorizontalAlignment="Left" Margin="584,171,0,0" VerticalAlignment="Top" Width="70" Click="btnUpload_Click"/>
+
+    </Grid>
+</Window>
